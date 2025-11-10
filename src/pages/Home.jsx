@@ -139,7 +139,7 @@ export default function Home() {
               marginBottom: '0.4rem',
             }}
           >
-            Hi, Iâ€™m{' '}
+            Hi, I am{' '}
             <motion.span
               animate={{ backgroundPositionX: ['0%', '200%'] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
