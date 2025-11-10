@@ -53,7 +53,7 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, Iâ€™m <strong>Sai Kumar Dasam</strong> — an aspiring Software Engineer currently pursuing an Integrated M.Tech (Computer Science) and a B.S. in Data Science. I build web applications and data-driven tools using the MERN stack and Python. I enjoy turning datasets into useful systems and building interfaces that make complex tools approachable.
+          Hi, I am <strong>Sai Kumar Dasam</strong> — an aspiring Software Engineer currently pursuing an Integrated M.Tech (Computer Science) and a B.S. in Data Science. I build web applications and data-driven tools using the MERN stack and Python. I enjoy turning datasets into useful systems and building interfaces that make complex tools approachable.
         </p>
 
         <p style={{ fontSize: "1.05rem", color: "rgba(255,255,255,0.8)" }}>
@@ -123,7 +123,7 @@ const AboutMe = () => {
                   University of Hyderabad — Hyderabad, India
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  2023 â€“ 2028 (ongoing)
+                  2023 - 2028 (ongoing)
                 </p>
               </div>
             </motion.div>
@@ -165,7 +165,7 @@ const AboutMe = () => {
                   Indian Institute of Technology Madras (Online)
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  2023 â€“ 2028 (ongoing)
+                  2023 - 2028 (ongoing)
                 </p>
               </div>
             </motion.div>
