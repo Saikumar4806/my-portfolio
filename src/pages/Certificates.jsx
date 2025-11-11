@@ -5,25 +5,39 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
-      title: "Flipkart Hackathon",
-      org: "Flipkart",
-      date: "2022",
-      img: "/certs/flipkart.jpg",
-      link: "/certs/flipkart.jpg",
-    },
-    {
-      title: "Solution Challenge",
-      org: "Google Developers",
-      date: "2023",
-      img: "/certs/hack2skill.png",
-      link: "/certs/hack2skill.png",
-    },
-    {
-      title: "ADira",
-      org: "SCET AI Club",
+      title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      org: "Oracle",
       date: "2025",
-      img: "/certs/adira.png",
-      link: "/certs/adira.png",
+      img: "/certs/Cloud Infra GenAI.jpg",
+      link: "/certs/Cloud Infra GenAI.jpg",
+    },
+    {
+      title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+      org: "Oracle",
+      date: "2025",
+      img: "/certs/Cloud Infra Foundation.jpg",
+      link: "/certs/Cloud Infra Foundation.jpg",
+    },
+    {
+      title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+      org: "Oracle",
+      date: "2025",
+      img: "/certs/AI Foundation.jpg",
+      link: "/certs/AI Foundation.jpg",
+    },
+    {
+      title: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+      org: "Oracle",
+      date: "2022",
+      img: "/certs/Cloud Infra Data Science.jpg",
+      link: "/certs/Cloud Infra Data Science.jpg",
+    },
+    {
+      title: "Oracle Data Platform 2025 Certified Foundations Associate",
+      org: "Oracle",
+      date: "2025",
+      img: "/certs/Data Platform.jpg",
+      link: "/certs/Data Platform.jpg",
     },
   ],
   other: [
@@ -34,6 +48,7 @@ const CERTS = {
       img: "/certs/cert3.svg",
       link: "/certs/cert3.svg",
     },
+
   ],
 };
 

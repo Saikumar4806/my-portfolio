@@ -4,6 +4,11 @@ import { motion } from 'framer-motion'
 // Import Assets
 import photo from '../../public/photo.jpg'
 import githubLogo from '../../public/github.png'
+import linkedinLogo from '../../public/linkedin.png'
+import gmailLogo from '../../public/gmail.png'
+import whatsappLogo from '../../public/whatsapp.png'
+import instagramLogo from '../../public/insta.png'
+import facebookLogo from '../../public/facebook.png'
 
 export default function Home() {
   const professions = [
@@ -15,6 +20,11 @@ export default function Home() {
   ]
 
   const quickLinks = [
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/sai-kumar-dasam-a26735375/' },
+    { img: gmailLogo, title: 'Email', link: 'mailto:dasamsaikumar@gmail.com' },
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+916303444914' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/saikumar525762/' },
+    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/share/1A85458tP7/' },
     { img: githubLogo, title: 'GitHub', link: 'https://github.com/Saikumar4806' },
   ]
 

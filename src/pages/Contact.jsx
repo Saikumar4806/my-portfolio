@@ -65,16 +65,16 @@ export default function Contact() {
   };
 
   const quickLinks = [
-    { img: githubLogo, title: "GitHub", link: "https://github.com/kunj2803" },
+    { img: githubLogo, title: "GitHub", link: "https://github.com/Saikumar4806" },
     {
       img: linkedinLogo,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/kunj-desai-07717b293/",
+      link: "https://www.linkedin.com/in/sai-kumar-dasam-a26735375/",
     },
-    { img: gmailLogo, title: "Email", link: "mailto:kunjd2803@gmail.com" },
-    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918758209508" },
-    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/kunj_2834/" },
-    { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/kunj.desai.222608" },
+    { img: gmailLogo, title: "Email", link: "mailto:dasamsaikumar@gmail.com" },
+    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+916303444914" },
+    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/saikumar525762/" },
+    { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/share/1A85458tP7/" },
   ];
 
   return (

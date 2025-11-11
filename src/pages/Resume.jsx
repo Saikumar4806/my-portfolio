@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 Sai Kumar Dasam
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              3rd Year B.Tech — CSE (core) | University of Hyderabad
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              📍 Tatiparthi, Pitapuram, Andhra Pradesh
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ dasamsaikumar@gmail.com | 📞 +91 6303444914
             </p>
           </div>
 
@@ -106,19 +106,23 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>B.Tech in Computer Science and Engineering</strong> — UOH
+              (University of Hyderabad), 2023–2028 <br />
+              <span style={{ color: "#aaa" }}>GPA: 7.5</span>
+            </li>
+            <li>
+              <strong>B.S in Data Science</strong> — IITM
+              (Indian Institute of Technology Madras), 2023–2028 <br />
+              <span style={{ color: "#aaa" }}>GPA: 7.0</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
-              Board, 2022) <br />
+              <strong>12th Board — Aditya Educational Institution</strong> (CBSE, 2023) <br />
               <span style={{ color: "#aaa" }}>Percentage: 78%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — Sri Chaitanya Techno School</strong> (Andhra Pradesh Board, 2021)
               <br />
-              <span style={{ color: "#aaa" }}>Percentage: 85%</span>
+              <span style={{ color: "#aaa" }}>Percentage: 99%</span>
             </li>
           </ul>
         </motion.div>
@@ -199,8 +203,8 @@ export default function Resume() {
         >
           {[
             { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            { name: "💻 GitHub", link: "https://github.com/Saikumar4806" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/sai-kumar-dasam-a26735375/" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -234,7 +238,7 @@ export default function Resume() {
         >
           <iframe
             src="/resume.pdf"
-            title="Kunj Desai Resume"
+            title="Sai Kumar Dasam Resume"
             style={{
               width: "100%",
               height: "650px",
