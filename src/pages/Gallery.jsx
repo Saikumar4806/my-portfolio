@@ -13,23 +13,29 @@ const IMAGES = {
     {
       id: 2,
       caption:
-        "Weekend getaway to clear my head 🌄 Sometimes inspiration strikes when you’re away from the screen.",
-      photos: ["/gallery/lonawala.jpg", "/gallery/lonawala2.jpg"],
+        "Successfully completed my first marathon at the Pink Power Run event.",
+      photos: ["/gallery/Marathon.jpeg"],
     },
   ],
   projects: [
     {
       id: 1,
       caption:
-        "It’s an AI-powered tool that understands what someone might be feeling based on their words.",
-      photos: ["/gallery/m.png", "/gallery/m2.jpeg"],
+        "My first internship, on Database Agent",
+      photos: ["/gallery/m1.jpeg", "/gallery/m2.jpeg","/gallery/m3.jpeg","/gallery/m4.jpeg"],
+    },
+    {
+      id: 2,
+      caption:
+        "My second internship, about Crop Prediction",
+      photos: ["/gallery/pp1.jpeg", "/gallery/p2.jpeg","/gallery/p3.jpeg","/gallery/p4.jpeg"],
     },
   ],
   achievements: [
     {
       id: 1,
-      caption: "Solved 1000 LeetCode questions 🏆!",
-      photos: ["/gallery/leet.jpeg"],
+      caption: "My first internship, my first professional gift ✨ Feeling motivated to learn and grow.",
+      photos: ["/gallery/nimoy_gift.jpg"],
     },
   ],
 };

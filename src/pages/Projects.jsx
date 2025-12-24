@@ -4,45 +4,53 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: 'UoH Alumni Scraper',
-    desc: 'A robust web scraping tool that extracts, cleans, and exports alumni data from university directories. Designed to automate data collection and provide CSV/JSON exports for downstream analysis.',
-    ss: '/mamo.png',
-    tech: ['Node.js', 'Express', 'Cheerio', 'CSV/JSON'],
-    live: '#',
-    code: 'https://github.com/Saikumar4806/WEB-SCRAPPER'
+    title: 'AgriYield',
+    desc: 'An end-to-end crop yield prediction and analytics project that uses data preprocessing, ML modeling, and a simple web interface to predict agricultural yields and visualize results.',
+    ss: '/agriyield.jpg',
+    tech: ['Python', 'Pandas', 'scikit-learn', 'Flask'],
+    live: 'https://agri-yield-vl2o.vercel.app/',
+    code: 'https://github.com/Saikumar4806/AgriYield'
   },
-  {
-    title: 'Classroom Booking System',
-    desc: 'A desktop Java application to manage classroom and lab bookings with validation checks and modular design to prevent scheduling conflicts and ensure reliable resource allocation.',
-    ss: '/portfolio.jpg',
-    tech: ['Java', 'File-based Storage', 'OOP'],
-    live: '#',
-    code: 'https://github.com/Saikumar4806/CLASSROOM-BOOKING'
-  },
+  // {
+  //   title: 'UoH Alumni Scraper',
+  //   desc: 'A robust web scraping tool that extracts, cleans, and exports alumni data from university directories. Designed to automate data collection and provide CSV/JSON exports for downstream analysis.',
+  //   ss: '/mamo.png',
+  //   tech: ['Node.js', 'Express', 'Cheerio', 'CSV/JSON'],
+  //   live: '#',
+  //   code: 'https://github.com/Saikumar4806/WEB-SCRAPPER'
+  // },
   {
     title: 'Game Club Platform',
     desc: 'A lightweight web platform that aggregates interactive games and quizzes. Built to foster engagement and provide a simple admin interface for quiz and activity management.',
-    ss: '/ProfileX.png',
+    ss: '/game_club.jpg',
     tech: ['HTML', 'JavaScript', 'Flask'],
-    live: '#',
+    live: 'https://saikumar4806.github.io/GAME-CLUB/',
     code: 'https://github.com/Saikumar4806/GAME-CLUB'
+  },
+  {
+    title: 'Habit tracker',
+    desc: '"IITM PROJECT":A feature-rich habit tracker built with React and Tailwind CSS, offering streaks, charts, gamification and analytics via local storage.',
+    ss: '/habitflow.png',
+    tech: ['React', 'Tailwind CSS', 'Vite', 'Recharts', 'LocalStorage'],
+    live: ' https://my-habit-tracker-lime.vercel.app/',
+    code: 'https://github.com/Saikumar4806/My_Habit_Tracker'
   },
   {
     title: 'Parking Management App',
     desc: 'A full-stack parking management application providing user authentication, admin dashboards, and real-time spot allocation to streamline daily parking operations.',
-    ss: '/breastpred.jpg',
+    ss: '/parking.png',
     tech: ['Python', 'Flask', 'SQLite'],
-    live: '#',
+    live: 'https://my-parking-app.onrender.com/',
     code: 'https://github.com/Saikumar4806/Parking'
   },
-  {
-    title: 'Quiz Master',
-    desc: 'Full-stack quiz management system with secure authentication, admin controls for quiz creation, and responsive user dashboards delivering real-time quiz feedback.',
-    ss: '/mentalhealth.jpg',
-    tech: ['Python', 'Flask', 'SQLite'],
-    live: '#',
-    code: '#'
-  }
+  // {
+  //   title: 'Quiz Master',
+  //   desc: 'Full-stack quiz management system with secure authentication, admin controls for quiz creation, and responsive user dashboards delivering real-time quiz feedback.',
+  //   ss: '/mentalhealth.jpg',
+  //   tech: ['Python', 'Flask', 'SQLite'],
+  //   live: '#',
+  //   code: '#'
+  // }
 ]
 
 export default function Projects() {

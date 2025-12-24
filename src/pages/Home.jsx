@@ -16,12 +16,11 @@ export default function Home() {
     'Full-stack (MERN) Developer',
     'Data & Systems Enthusiast',
     'Python Developer',
-    'Open-source Contributor',
   ]
 
   const quickLinks = [
     { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/sai-kumar-dasam-a26735375/' },
-    { img: gmailLogo, title: 'Email', link: 'mailto:dasamsaikumar@gmail.com' },
+    { img: gmailLogo, title: 'Email', link: 'https://mail.google.com/mail/?view=cm&fs=1&to=dasamsaikumar@gmail.com' },
     { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+916303444914' },
     { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/saikumar525762/' },
     { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/share/1A85458tP7/' },
@@ -173,7 +172,7 @@ export default function Home() {
               maxWidth: '95%',
             }}
           >
-            Aspiring Software Engineer | Full-stack Developer | Data & Systems Enthusiast
+            Aspiring Software Engineer | Full-stack Developer | Data Science Enthusiast
           </p>
 
           <motion.div

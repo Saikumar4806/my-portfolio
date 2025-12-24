@@ -5,6 +5,27 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
+      title: "INFOSYS: Internship 6.0 (B1) Agri Yield Predictor: Application for Forecast Crop Yield using Environmental and Soil Data",
+      org: "Infosys",
+      date: "2025",
+      img: "/certs/Infosys_Internship_page.jpg",
+      link: "/certs/Infosys_Internship_page.jpg",
+    },
+    {
+      title: "NIMOY AI: Intern – AI Engineer: Database Agentic solution",
+      org: "NIMOY AI",
+      date: "2025",
+      img: "/certs/Internship Experience letter-Sai Kumar Dasam.jpg",
+      link: "/certs/Internship Experience letter-Sai Kumar Dasam.jpg",
+    },
+    {
+      title: "NIMOY AI: Intern – AI Engineer: Database Agentic solution",
+      org: "NIMOY AI",
+      date: "2025",
+      img: "/certs/LOR_Sai Kumar Dasam.jpg",
+      link: "/certs/LOR_Sai Kumar Dasam.jpg",
+    },
+    {
       title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
       org: "Oracle",
       date: "2025",
@@ -42,11 +63,6 @@ const CERTS = {
   ],
   other: [
     {
-      title: "Advanced Python",
-      org: "Udemy",
-      date: "2021",
-      img: "/certs/cert3.svg",
-      link: "/certs/cert3.svg",
     },
 
   ],

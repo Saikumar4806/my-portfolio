@@ -87,6 +87,95 @@ export default function Resume() {
             </p>
           </motion.div>
         </motion.div>
+        
+        {/* Internships */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6 }}
+          style={{
+            marginTop: 40,
+            border: "1px solid rgba(255,255,255,0.1)",
+            borderRadius: 12,
+            padding: "20px 24px",
+            background: "rgba(255,255,255,0.03)",
+          }}
+        >
+          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>🧑‍💼 Internships</h4>
+
+          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+            <div
+              style={{
+                background: "rgba(255,255,255,0.04)",
+                borderRadius: 10,
+                padding: "14px 16px",
+                border: "1px solid rgba(255,255,255,0.08)",
+              }}
+            >
+              <strong style={{ color: "#e5e5e5" }}>
+                Nimoy IT Solutions Pvt. Ltd. (NIMOY.AI) — Intern – AI Engineer
+              </strong>
+              <div style={{ color: "#aaa", marginTop: 4 }}>July 20, 2025 – September 22, 2025</div>
+              <ul style={{ listStyle: "none", padding: 0, margin: "10px 0", lineHeight: 1.7, color: "#ccc" }}>
+                <li>
+                  ✓ Contributed to the AI/ML Platform Team on Nimoy's in-house
+                  <em style={{ color: "#00b4ff" }}> Database Agentic</em> solution.
+                </li>
+                <li>
+                  ✓ Demonstrated strong technical expertise, problem‑solving, ownership, and timely delivery of tasks.
+                </li>
+                <li>
+                  ✓ Recognized for punctuality, quick learning, keen interest, solid grasping ability, and commendable communication skills.
+                </li>
+              </ul>
+              <div style={{ fontSize: 13, color: "#8fbfe7" }}>
+                Reference: Internship Experience Letter (Nimoy IT Solutions Pvt. Ltd.)
+              </div>
+            </div>
+
+            <div
+              style={{
+                background: "rgba(255,255,255,0.04)",
+                borderRadius: 10,
+                padding: "14px 16px",
+                border: "1px solid rgba(255,255,255,0.08)",
+              }}
+            >
+              <strong style={{ color: "#e5e5e5" }}>
+                Infosys Springboard — Internship 6.0 (B1): Agri Yield Predictor
+              </strong>
+              <div style={{ color: "#aaa", marginTop: 4 }}>August 6, 2025 – October 10, 2025</div>
+              <ul style={{ listStyle: "none", padding: 0, margin: "10px 0", lineHeight: 1.7, color: "#ccc" }}>
+                <li>
+                  ✓ Developed an application to forecast crop yield using environmental and soil data.
+                </li>
+                <li>
+                  ✓ Focused on data preparation, model building and evaluation, and application integration for practical analytics.
+                </li>
+              </ul>
+              <div style={{ fontSize: 13, color: "#8fbfe7" }}>
+                Reference: Certificate of Completion (Infosys Springboard)
+              </div>
+            </div>
+          </div>
+        </motion.div>
+        
+        {/* Projects */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8 }}
+          style={{ marginTop: 40 }}
+        >
+          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
+          <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
+            <li>1️⃣ AgriYield – Crop Yield Prediction & Analytics (ML + Flask)</li>
+            <li>2️⃣ Game Club Platform – Interactive Games & Quiz Web App</li>
+            <li>3️⃣ Habit Tracker – React-Based Habit Tracking & Analytics (IITM Project)</li>
+            <li>4️⃣ Parking Management App – Full-Stack Parking System</li>
+          </ul>
+        </motion.div>
+
 
         {/* Education Section with Border Box */}
         <motion.div
@@ -124,22 +213,6 @@ export default function Resume() {
               <br />
               <span style={{ color: "#aaa" }}>Percentage: 99%</span>
             </li>
-          </ul>
-        </motion.div>
-
-        {/* Projects */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8 }}
-          style={{ marginTop: 40 }}
-        >
-          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
-            <li>2️⃣ DocuChat: Document Q&A Chatbot (Gemini API)</li>
-            <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
-            <li>4️⃣ Mental Health Analyzer</li>
           </ul>
         </motion.div>
 
@@ -202,7 +275,7 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
+            { name: "🏆 LeetCode", link: "https://leetcode.com/u/sai4806/" },
             { name: "💻 GitHub", link: "https://github.com/Saikumar4806" },
             { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/sai-kumar-dasam-a26735375/" },
           ].map((site) => (
