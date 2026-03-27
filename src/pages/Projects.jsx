@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
+// Update this constant or add a new one for LinkedIn if used in the UI
+const LINKEDIN_URL = 'https://www.linkedin.com/in/sai-kumar-dasam/';
+
 const PROJECTS = [
   {
     title: 'AgriYield',
@@ -11,22 +14,30 @@ const PROJECTS = [
     live: 'https://agri-yield-vl2o.vercel.app/',
     code: 'https://github.com/Saikumar4806/AgriYield'
   },
-  // {
-  //   title: 'UoH Alumni Scraper',
-  //   desc: 'A robust web scraping tool that extracts, cleans, and exports alumni data from university directories. Designed to automate data collection and provide CSV/JSON exports for downstream analysis.',
-  //   ss: '/mamo.png',
-  //   tech: ['Node.js', 'Express', 'Cheerio', 'CSV/JSON'],
-  //   live: '#',
-  //   code: 'https://github.com/Saikumar4806/WEB-SCRAPPER'
-  // },
   {
-    title: 'Game Club Platform',
-    desc: 'A lightweight web platform that aggregates interactive games and quizzes. Built to foster engagement and provide a simple admin interface for quiz and activity management.',
-    ss: '/game_club.jpg',
-    tech: ['HTML', 'JavaScript', 'Flask'],
-    live: 'https://saikumar4806.github.io/GAME-CLUB/',
-    code: 'https://github.com/Saikumar4806/GAME-CLUB'
+    title: 'LLM Analysis Quiz Solver',
+    desc: 'An autonomous agent that solves multi-step data science quizzes by scraping, analyzing, and visualizing data using LLM-powered reasoning. Features FastAPI, LangGraph, Playwright, and dynamic Python code execution. Developed for the TDS course at IIT Madras.',
+    ss: '/quiz_solver.png',
+    tech: ['Python', 'FastAPI', 'LangGraph', 'Playwright', 'LLM'],
+    live: 'https://tds-llm-analysis.s-anand.net/demo',
+    code: 'https://github.com/Saikumar4806/tds_project_2'
   },
+  {
+    title: 'UoH Alumni Scraper',
+    desc: 'A robust web scraping tool that extracts, cleans, and exports alumni data from university directories. Designed to automate data collection and provide CSV/JSON exports for downstream analysis.',
+    ss: '/mamo.png',
+    tech: ['Node.js', 'Express', 'Cheerio', 'CSV/JSON'],
+    live: '#',
+    code: 'https://github.com/Saikumar4806/WEB-SCRAPPER'
+  },
+  // {
+  //   title: 'Game Club Platform',
+  //   desc: 'A lightweight web platform that aggregates interactive games and quizzes. Built to foster engagement and provide a simple admin interface for quiz and activity management.',
+  //   ss: '/game_club.jpg',
+  //   tech: ['HTML', 'JavaScript', 'Flask'],
+  //   live: 'https://saikumar4806.github.io/GAME-CLUB/',
+  //   code: 'https://github.com/Saikumar4806/GAME-CLUB'
+  // },
   {
     title: 'Habit tracker',
     desc: '"IITM PROJECT":A feature-rich habit tracker built with React and Tailwind CSS, offering streaks, charts, gamification and analytics via local storage.',

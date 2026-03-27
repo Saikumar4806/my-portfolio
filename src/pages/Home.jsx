@@ -19,7 +19,7 @@ export default function Home() {
   ]
 
   const quickLinks = [
-    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/sai-kumar-dasam-a26735375/' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/sai-kumar-dasam/' },
     { img: gmailLogo, title: 'Email', link: 'https://mail.google.com/mail/?view=cm&fs=1&to=dasamsaikumar@gmail.com' },
     { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+916303444914' },
     { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/saikumar525762/' },

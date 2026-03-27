@@ -3,29 +3,11 @@
 This repository is a personal portfolio website built with React and Vite. It contains pages for Home, About, Projects, Gallery and more. The site is designed for quick development (Vite dev server) and production deployment as a static site.
 
 ## Features
-- React + Vite single-page app
-- Framer Motion animations
-- Responsive layout and project cards
-- Simple contact links (Email, LinkedIn, WhatsApp, GitHub, etc.)
-
-## Prerequisites
-- Node.js (recommended >= 16)
-- npm (bundled with Node) or yarn
-- EmailJS account (for contact form functionality)
-
 ## Environment Setup
 Create a `.env` file in the project root with your EmailJS credentials:
 
-```env
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
-```
-
-**How to get EmailJS credentials:**
+ [LinkedIn](https://www.linkedin.com/in/sai-kumar-dasam/)
 1. Sign up at [emailjs.com](https://www.emailjs.com) (free tier: 200 emails/month)
-2. Add an email service (Gmail, Outlook, etc.)
-3. Create an email template with variables: `{{from_name}}`, `{{contact_info}}`, `{{subject}}`, `{{message}}`
 4. Copy your Service ID, Template ID, and Public Key to `.env`
 
 **Important:** Never commit `.env` to Git - it's already in `.gitignore`.

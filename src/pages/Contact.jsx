@@ -69,7 +69,7 @@ export default function Contact() {
     {
       img: linkedinLogo,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/sai-kumar-dasam-a26735375/",
+      link: "https://www.linkedin.com/in/sai-kumar-dasam/",
     },
     { img: gmailLogo, title: "Email", link: "https://mail.google.com/mail/?view=cm&fs=1&to=dasamsaikumar@gmail.com" },
     { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+916303444914" },

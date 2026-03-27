@@ -277,7 +277,7 @@ export default function Resume() {
           {[
             { name: "🏆 LeetCode", link: "https://leetcode.com/u/sai4806/" },
             { name: "💻 GitHub", link: "https://github.com/Saikumar4806" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/sai-kumar-dasam-a26735375/" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/sai-kumar-dasam/" },
           ].map((site) => (
             <motion.a
               key={site.name}
